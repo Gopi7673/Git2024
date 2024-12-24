@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func main() {
+    // Print a welcome message
+    fmt.Println("Hello, World!")
+
+    // Add two numbers
+    num1 := 5
+    num2 := 10
+    sum := num1 + num2
+
+    // Print the result
+    fmt.Printf("The sum of %d and %d is %d\n", num1, num2, sum)
+}
+
